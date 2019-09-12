@@ -4,7 +4,7 @@ apply plugin: 'com.jfrog.bintray'
 
 ext {
     bintrayRepo = 'maven' // Name of the Bintray repo you created
-    bintrayName = 'poly.mob.helloworld:0.0.1' // Bintray package name
+    bintrayName = 'poly.mob.helloworld:test' // Bintray package name
 
     publishedGroupId = 'poly.mob.helloworld'
     // Group ID of the SDK which will be added in implementation line of gradle
@@ -44,7 +44,6 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }

@@ -22,6 +22,9 @@ allprojects {
         
     }
 }
+subprojects {
+    tasks.withType(Javadoc).all { enabled = false }
+}
 ext{
     supportLibVersion = '29.0.1'
 }

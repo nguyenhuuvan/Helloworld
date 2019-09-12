@@ -8,11 +8,11 @@ ext {
 
     publishedGroupId = 'poly.mob.helloworld'
     // Group ID of the SDK which will be added in implementation line of gradle
-    artifact = '0.0.1'
+    artifact = 'test'
     // Artifact ID of the SDK which will be added in implementation line of gradle
     libraryVersion = '0.0.1' // Version of the library you created in Bintray
 
-    libraryName = 'Hello World' // It is generally the module name
+    libraryName = 'helloworld' // It is generally the module name
     libraryDescription = 'Test Hello world' // Small description of the library
 
     siteUrl = 'https://github.com/nguyenhuuvan/Helloworld'

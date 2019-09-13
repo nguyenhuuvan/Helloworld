@@ -12,11 +12,11 @@ ext {
     // Artifact ID of the SDK which will be added in implementation line of gradle
     libraryVersion = '0.0.1' // Version of the library you created in Bintray
 
-    libraryName = 'helloworld' // It is generally the module name
+    libraryName = 'Hello World' // It is generally the module name
     libraryDescription = 'Test Hello world' // Small description of the library
 
-    siteUrl = 'https://github.com/nguyenhuuvan/Helloworld'
-    gitUrl = 'https://github.com/nguyenhuuvan/Helloworld.git'
+    siteUrl = 'https://github.com/nguyenhuuvan'
+    gitUrl = 'https://github.com/nguyenhuuvan/Helloworld'
 
     developerId = 'kid1412'
     developerName = 'Nguyen Huu Van'
@@ -44,6 +44,7 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
